@@ -1,3 +1,19 @@
+@font-face {
+    font-family: GraphikLCG-Regular;
+    src: url('../fonts/GraphikLCG-Regular.eot');
+    src: url('../fonts/GraphikLCG-Regular.woff');
+    src: url('../fonts/GraphikLCG-Regular.woff2');
+    src: url('../fonts/GraphikLCG-Regular.svg');
+    src: url('../fonts/GraphikLCG-Regular.ttf');
+}
+@font-face {
+    font-family: GraphikLCG-Semibold;
+    src: url('../fonts/GraphikLCG-Semibold.eot');
+    src: url('../fonts/GraphikLCG-Semibold.svg');
+    src: url('../fonts/GraphikLCG-Semibold.ttf');
+    src: url('../fonts/GraphikLCG-Semibold.woff');
+    src: url('../fonts/GraphikLCG-Semibold.woff2');
+}
 *,
 html,
 body {
@@ -8,7 +24,7 @@ body {
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: GraphikLCG-Regular, GraphikLCG-Semibold;
 }
 
 header {
